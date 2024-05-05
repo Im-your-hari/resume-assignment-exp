@@ -1,6 +1,13 @@
 body{
     margin: 0%;
-    padding:0%
+    padding:0%;
+    font-family: sans-serif;
+    margin-left: 0% !important;
+    padding-left:0% !important ;
+}
+
+table{
+    
 }
 
 .main-table{
@@ -9,9 +16,13 @@ body{
     padding-right: 0% !important;
     margin-right: 0% !important;
     width: 100%;
+    border-collapse: collapse !important;
 }
 .main-table .left-panel{
     width: 10%;
+    padding: 0%;
+    padding-left: 3px;
+    padding-bottom: 3px;
 }
 
 tr .left-panel{
@@ -27,7 +38,7 @@ tr .left-panel main{
 }
 
 .profile-image{
-    padding-top: 3px;
+    padding-top: 5px;
 }
 .main-heads{
     text-transform: uppercase;
@@ -35,56 +46,81 @@ tr .left-panel main{
     font-size: medium;
 }
 .left-panel hr{
-    color: #eca02e;
+    color: #f08b1e;
 }
 .texts{
     color: #fff !important;
     padding-right: 15px;
+    
+}
+.texts td{
+    padding-right: 25px;
 }
 .contact-style{
-    background-color: #eca02e;
+    background-color: #f08b1e;
     color: #fff;
+    
 }
 
 .contact-style div{
-    background-color: gray;
+    background-color: #6b6a6a;
     color: #fff;
-    padding-left:30px;
-    padding:1px;
+    height: 30px;
+   
     margin-left: 40px;
+    
 }
 .contact-style p{
     padding-left:30px;
-    
+    padding-top: 5px;
 }
 
 .right-panel{
-    
+    padding: 0%;
+    padding-top: 15px;
 
 }
 
 .right-panel header{
-    background-color: #eca02e;
-    
+    background-color: #f08b1e;
+    padding-right: 0px !important;
+    padding-left: 20px !important;
+    padding: 5px;
 }
 
 .right-panel article{
-    padding: 5px !important;
+    padding-left: 20px !important;
 
 }
 .right-panel article p{
     padding: 5px !important;
 
 } 
+.right-panel article .progress-table{
+    padding: 5px !important;
+    padding-left: 230px !important;
+} 
+.right-panel article .progress-table td{
+    padding-right: 40px;
+    padding-bottom: 20px;
+} 
+
 
 progress {
-    width: 200px;
+    width: 280px;
     height: 5px;
     border: 2px;
  }
  progress::-webkit-progress-bar {
-    background-color: gray;
+    background-color: #6b6a6a;
  }
  progress::-webkit-progress-value {
     background-color: black;
+ }
+
+ .progress-table{
+    
+ }
+ hr{
+    border: 1.4px solid;
  }
