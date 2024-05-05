@@ -9,6 +9,10 @@ body{
 table{
     
 }
+a{
+    text-decoration: none;
+    color: #fff !important;
+}
 
 .main-table{
     margin: 0%;
