@@ -1,0 +1,90 @@
+body{
+    margin: 0%;
+    padding:0%
+}
+
+.main-table{
+    margin: 0%;
+    padding: 0%;
+    padding-right: 0% !important;
+    margin-right: 0% !important;
+    width: 100%;
+}
+.main-table .left-panel{
+    width: 10%;
+}
+
+tr .left-panel{
+    height: 100%;
+    width: 10%;
+    margin:0px;
+    
+    
+}
+tr .left-panel main{
+    background-color: black;
+    padding-bottom: 10px;
+}
+
+.profile-image{
+    padding-top: 3px;
+}
+.main-heads{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: medium;
+}
+.left-panel hr{
+    color: #eca02e;
+}
+.texts{
+    color: #fff !important;
+    padding-right: 15px;
+}
+.contact-style{
+    background-color: #eca02e;
+    color: #fff;
+}
+
+.contact-style div{
+    background-color: gray;
+    color: #fff;
+    padding-left:30px;
+    padding:1px;
+    margin-left: 40px;
+}
+.contact-style p{
+    padding-left:30px;
+    
+}
+
+.right-panel{
+    
+
+}
+
+.right-panel header{
+    background-color: #eca02e;
+    
+}
+
+.right-panel article{
+    padding: 5px !important;
+
+}
+.right-panel article p{
+    padding: 5px !important;
+
+} 
+
+progress {
+    width: 200px;
+    height: 5px;
+    border: 2px;
+ }
+ progress::-webkit-progress-bar {
+    background-color: gray;
+ }
+ progress::-webkit-progress-value {
+    background-color: black;
+ }
